@@ -4,7 +4,7 @@
 Komba is a mobile application designed to enhance the navigation experience within South Africa's minibus taxi system. It provides real-time predictions of pick-up and departure times, suggests the nearest taxi ranks, and helps users discover points of interest along their routes. The app aims to simplify public transportation for both locals and tourists, promoting responsible tourism and supporting local businesses.
 
 ## Deployment
-You can access the deployed version of the application here: [Komba App](http://example.com)
+You can access the deployed version of the application here: [Komba App](https://github.com/gomolemontlhane/komba_app/blob/main/login.html)
 
 ## Blog Article
 Read more about the development and features of Komba in our blog post: [Komba Development Blog](https://www.linkedin.com/pulse/blog-post-alx-komba-portfolio-project-gomolemo-ntlhane-qzqkf/)
