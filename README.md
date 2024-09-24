@@ -18,10 +18,21 @@ To set up the project locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/gomolemontlhane/komba_app.git
+   ```
 
-2. **Navigate to the project directory**:   
+2. **Navigate to the project directory**:
+      ```bash
+      cd koma_app
+      ```
 
-3. **Open the project:**
+3. **Install the required packages: Make sure you have Python and pip installed, then run:**
+
+```bash
+Copy code
+pip install -r requirements.txt
+```
+
+4. **Open the project:**
 
 - The project files are organized as follows:
 - `index.html` - Main HTML file
@@ -57,3 +68,25 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## Screenshots
 ![Komba Login Page](./screenshot.png)
+
+```graphql
+komba_app/
+│
+├── app.py                    # Main application file
+├── background.jpg            # Background image
+├── komba_bg.jpg              # Additional background image
+├── lock_FILL1_wght400_GRAD0_opsz24.svg  # SVG icon for lock
+├── person_FILL1_wght400_GRAD0_opsz24.svg # SVG icon for person
+├── models/                   # Directory for data models
+│   └── models.py             # Data models
+├── static/                   # Directory for static files
+│   ├── images/               # Directory for images
+│   ├── scripts.js            # JavaScript functionalities
+│   └── style.css             # CSS styles
+└── templates/                # Directory for HTML templates
+    ├── home.html            # Home page
+    ├── login.html           # Login page
+    ├── signup.html          # Signup page
+    └── success.html         # Success page
+```
+
