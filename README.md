@@ -28,46 +28,15 @@ To set up the project locally, follow these steps:
 3. **Install the required packages: Make sure you have Python and pip installed, then run:**
 
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 
-4. **Open the project:**
+4. **Run the applicatoin: Start the Flask server with the command**
 
-- The project files are organized as follows:
-- `index.html` - Main HTML file
-- `login.html` - Login page
-- `signup.html` - Signup page
-- `styles.css`- CSS styles
-- `scripts.js` - JavaScript functionalities
-
-Open `login.html` or `signup.html` in your browser to view the pages.
-
-## Usaege
-
-1. **login Page**:
-- Navigate to `login.html` to access the login page.
-- Enter your credentials to log in.
-
-2. **Signup Page**:
-- Navigate to `signup.html` to access the signup page.
-- Register a new account by providing the required information.
-
-## Contributing
-We welcome contributions to improve Komba. To contribute:
-
-1. Fork the repository on GitHub.
-2. Create a new branch for your changes.
-3. Commit your changes and push them to your fork.
-4. Submit a pull request with a clear description of the changes.
-
-For major changes or feature requests, please open an issue first to discuss the proposed changes.
-
-## Licensing
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-## Screenshots
-![Komba Login Page](./screenshot.png)
+```bash
+flask run
+```
+## Project Structure
 
 ```graphql
 komba_app/
@@ -90,3 +59,43 @@ komba_app/
     └── success.html         # Success page
 ```
 
+## Usage
+
+1. **Running the Application:**
+- Start the flask applicatoin by running:
+   ```bash
+   python app.py
+   ```
+- Open your web browser and navigate to http://127.0.0.1:5000/
+
+2. **Login Page:**
+
+- Navigate to /login to access the login page.
+- Enter your credentials to log in.
+
+3. **Signup Page:**
+
+- Navigate to /signup to access the signup page.
+Register a new account by providing the required information.
+
+4. **Home Page:**
+- Upon successful login, users will be redirected to the home page.
+
+5. **Success Page:**
+- After signup or successful actions, users will be redirected to the success page.
+
+## Contributing
+We welcome contributions to improve Komba. To contribute:
+
+1. Fork the repository on GitHub.
+2. Create a new branch for your changes.
+3. Commit your changes and push them to your fork.
+4. Submit a pull request with a clear description of the changes.
+
+For major changes or feature requests, please open an issue first to discuss the proposed changes.
+
+## Licensing
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Screenshots
+![Komba Login Page](./screenshot.png)
